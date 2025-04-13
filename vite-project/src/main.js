@@ -18,12 +18,12 @@ camera.position.z = 5;
 
 // Dodecahedron Object
 const geometry = new THREE.DodecahedronGeometry();
-const material = new THREE.MeshLambertMaterial({ color: '#468585', emissive: '0x468585' });
+const material = new THREE.MeshLambertMaterial({ color: '#468585', emissive: 0x468585 });
 const dodecahedron = new THREE.Mesh(geometry, material);
 
 // Box Object
 const boxGeometry = new THREE.BoxGeometry(2, 0.1, 2);
-const boxMaterial = new THREE.MeshStandardMaterial({ color: '#B4B4B3', emissive: '0xB4B4B3' });
+const boxMaterial = new THREE.MeshStandardMaterial({ color: '#B4B4B3', emissive: 0xB4B4B3 });
 const box = new THREE.Mesh(boxGeometry, boxMaterial);
 box.position.y = -1.5;
 
