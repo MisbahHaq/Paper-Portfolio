@@ -17,7 +17,7 @@ const camera = new THREE.PerspectiveCamera(
 camera.position.z = 5;
 
 // Dodecahedron Object
-const geometry = new THREE.DodecahedronGeometry();
+const geometry = new THREE.LatheGeometry();
 const material = new THREE.MeshLambertMaterial({ color: '#468585', emissive: 0x468585 });
 const dodecahedron = new THREE.Mesh(geometry, material);
 
