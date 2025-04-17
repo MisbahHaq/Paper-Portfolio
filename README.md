@@ -3,7 +3,7 @@
 A pixel-perfect clone of the stunning [Miranda Paper Portfolio](https://mirandapaper.com/) built using **HTML**, **CSS**, **JavaScript**, and **GSAP**. This project replicates the unique scrolling animations, smooth transitions, and elegant typography of the original website.
 
 
-
+https://github.com/user-attachments/assets/3cf729fa-c0cc-4593-8f41-f9d81cd9707d
 
 
 ## ⚙️ Tech Stack
